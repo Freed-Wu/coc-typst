@@ -1,5 +1,22 @@
 # Typst LSP VS Code Extension
 
+Ported from [vscode-typst](https://github.com/nvarner/typst-lsp).
+
+## Install
+
+- [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
+- [npm](https://www.npmjs.com/package/coc-typst)
+- vim:
+
+```vim
+" command line
+CocInstall coc-typst
+" or add the following code to your vimrc
+let g:coc_global_extensions = ['coc-typst', 'other coc-plugins']
+```
+
+---
+
 A VS Code extension for Typst.
 
 ## Features
