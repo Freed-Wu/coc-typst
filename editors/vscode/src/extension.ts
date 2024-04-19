@@ -6,7 +6,7 @@ import {
     ViewColumn,
     Uri,
     WorkspaceConfiguration,
-} from "vscode";
+} from "coc.nvim";
 import * as path from "path";
 import * as child_process from "child_process";
 
@@ -14,7 +14,7 @@ import {
     LanguageClient,
     type LanguageClientOptions,
     type ServerOptions,
-} from "vscode-languageclient/node";
+} from "coc.nvim";
 
 let client: LanguageClient | undefined = undefined;
 
